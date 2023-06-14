@@ -1,0 +1,46 @@
+@media (max-width: 576px){
+    .card{
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .card .info {
+        text-align: center;
+        width: 100%;
+    }
+
+    .card .info .title::before{
+        content: '';
+        background: url(../images/image-header-mobile.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        filter: opacity(0.4) drop-shadow(0 0 0 var(--accent));
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .card .info .stats-area{
+        text-align: center;
+        gap: 30px;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .card .info .description{
+        margin: 0 3rem;
+    }
+
+
+    .card .image img{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .card .image img{
+        width: 300px;
+    }
+}

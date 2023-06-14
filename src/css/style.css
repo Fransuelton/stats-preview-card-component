@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--main-background);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--card-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 2rem;
+}
+
+.card .info .title{
+    color: var(--main-heading-stats);
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.card .info .title span{
+    color: var(--accent);
+}
+
+.card .info .description{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--main-paragraph);
+    font-size: 1.2rem;
+}
+
+.card .info .stats-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.stats-area .stats .count{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: var(--main-heading-stats);
+    margin-bottom: 0.5rem;
+}
+
+.stats-area .stats .type{
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color: var(--stat-headings);
+    font-size: 1rem;
+}
+
+.card .image{
+    display: flex;
+}
+
+.card .image img {
+    width: 400px;
+    filter: opacity(0.4) drop-shadow(0 0 0 var(--accent));
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
