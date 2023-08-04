@@ -1,39 +1,29 @@
 # Frontend Mentor - Stats preview card component solution
 
-Esta é uma solução para o Desafio [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## 📸 Imagens do Projeto
+## The challenge
 
-### Desktop
+Users should be able to:
 
-![](design/desktop-design.jpg)
+- View the optimal layout depending on their device's screen size
 
-### Mobile
+## Screenshot
 
-![](design/mobile-design.jpg)
+![](./design/desktop-design.jpg)
 
-## 💻 Tecnologias Utilizadas
+## Links
 
-<img width="60px" height="60px" title="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img width="60px" height="60px" title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/stats-preview-component-with-flex-a2JCDcX9g7)
+- [Deployment GitHub Pages](https://fransuelton.github.io/stats-preview-card-component/)
 
-## ☕ Como utilizar:
+### Built with
 
-1° Clone o repositório
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
 
-```
-git clone url-do-repositorio
-```
+## Author
 
-2° Ou acesse o deploy do projeto [Clicando aqui](https://fransuelton.github.io/landing-page-agencia-xyz/).
-
-## 📫 Contribuindo para o Projeto
-
-Para contribuir com esse projeto siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-## Obrigado por visitar meu repositório!❤️
+- Frontend Mentor - [@Fransuelton](https://www.frontendmentor.io/profile/Fransuelton)
+- LinkedIn - [@Fransuelton](https://www.linkedin.com/in/fransuelton/)
